@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #baa9cb, #2575fc); 
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  font-family: 'Roboto', sans-serif !important; 
+  border: 1px solid #ddd !important; 
+  border-radius: 5px !important; 
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1) !important; 
+}
+.card-title {
+  color: #343a40 !important; 
+  font-weight: 700 !important; 
+}
+
+form .form-control {
+  font-family: 'Roboto', sans-serif;
+  border-radius: 8px; 
+  padding: 12px 15px; 
+  font-size: 16px; 
+  border: 1px solid #ccc; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+input.form-control::placeholder {
+  color: #007bff !important; 
+  opacity: 1 !important;
+}
+input.form-control:invalid {
+  background-color: #d3d3d3; 
+  border-color: #ccc; 
+}
+
+/* Elementai, kurių reikšmė teisinga (valid), turi žalią ribą */
+input.form-control:valid {
+  border-color: #28a745; /* Žalia spalva */
+}
